@@ -36,6 +36,52 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  sqflite: ^2.2.8+3
+  path: ^1.8.3
+  uuid: ^3.0.7
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_native_splash: ^2.2.19
+  video_player: ^2.6.1
+  rate: ^0.0.2
+  responsive_framework: ^1.1.0 #responsive ekranlar için kütüphane 
+  #grafik
+  fl_chart: ^0.64.0
+  flutter_riverpod: ^2.3.7 #state yönetimi için 
+  firebase_core: ^2.13.0
+  cloud_firestore: ^4.7.1
+  flutter_svg: ^2.0.7 #svg formatındaki görseller için
+  #package name change
+  change_app_package_name: ^1.1.0
+  equatable: ^2.0.5
+  lottie: ^2.6.0 #lottie efektler için
+  badges: ^3.1.1 #sepet miktarı için 
+  image_picker: ^1.0.2
+  shimmer: ^3.0.0 #veri çekerken dalgalanma içinn
+  #login işlemleri için
+  firebase_auth: ^4.6.1
+  carousel_slider: ^4.2.1
+  #login logic
+  firebase_ui_auth: ^1.4.1
+  #google auth
+  firebase_ui_oauth_google: ^1.2.1
+  google_sign_in: ^6.1.0
+  firebase_ui_oauth_apple: ^1.2.1
+  sign_in_with_apple: ^5.0.0
+  #animated text splash
+  animated_text_kit: ^4.2.2
+  #custom dialog
+  awesome_dialog: ^3.0.2
+  #update link
+  launch_review: ^3.0.1
+  #uygulama rate
+  in_app_review: ^2.0.6 
+  #temel data tutmak için
+  shared_preferences: ^2.1.1
+  #geri sayım için
+  circular_countdown_timer: ^0.2.3 
+  easy_localization: ^3.0.3
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -59,8 +105,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/translations/
+    - assets/fonts/
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
