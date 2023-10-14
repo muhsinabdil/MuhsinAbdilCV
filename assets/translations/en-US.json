@@ -1,10 +1,30 @@
 {
     "title":"Muhsin Abdil CV",
-    "msg_named":"Easy localization is written in the {lang} language",
-    "msg_mixed":"{} are written in the {lang} language",
-    "gender":{
-       "male":"Hi man ;) {}",
-       "female":"Hello girl :) {}",
-       "other":"Hello {}"
-    }
+    "fullname":"Muhsin Abdil",
+    "home_page":"Home",
+    "about_page":"About Me",
+    "services_page":"Services",
+    "contact_page":"Contact",
+    "projects_page":"Projects",
+    "experiences_page":"Experiences",
+    "education_page":"Educations",
+    "pdf":"PDF",
+    "location":"Location",
+    "education_status":"Education Status",
+    "skils":"Skils",
+    "age":"Age",
+    "more":"More",
+    "email":"Email",
+    "phone":"Phone",
+    "Address":"Address",
+    "working_status":"Working Status",
+    "job_position":"Job Position",
+    "company_name":"Company Name",
+    "references":"References",
+    "about_text":"this paragraphy is about me",
+    "certifications":"Certifications",
+    "foreign_language":"Foreign Language"
+
+    
+
  }
